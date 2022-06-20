@@ -1,5 +1,6 @@
 # Online Film Streaming Platform Analysis
 ## Goal
+For each of the popular film streaming platform(Netflix, Disney+, Amazon Prime...etc):
 1. Listing out the most popular films in each region(country) for the past two years
 2. Listing out the most popular films (rule out the world-trending movies) in each counctry(region) for the past two years 
 3. Make an analysis on the movie production power of each country(i.e. how likely is it for a country to film a movie on top 10 board)
@@ -19,3 +20,7 @@ b. Make word extraction from "summary" of each film to select reasonable "keywor
 c. Make a cluster analysis on each country/region to see who has the similar preference over films
 ### 3. Visulization
 Use csv files to build Tableau dashoard
+
+## Links
+1. [FlixPatrol](https://flixpatrol.com/)
+2. [TMDb](https://www.themoviedb.org/)
