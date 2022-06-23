@@ -23,6 +23,8 @@ d. Export the data as csv files
 ### 3. Visulization
 Use csv files to build Tableau dashoard
 
+## 4. Other Tools
+I create a concurrent multithread function that allow users to fetch big amount of data in shorter time span, in order to prevent unexpected scraper error. 
 ## Links
 1. [FlixPatrol](https://flixpatrol.com/)
 2. [TMDb](https://www.themoviedb.org/)
