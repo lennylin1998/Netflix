@@ -23,8 +23,14 @@ d. Export the data as csv files
 ### 3. Visulization
 Use csv files to build Tableau dashoard
 
-## 4. Other Tools
-I create a concurrent multithread function that allow users to fetch big amount of data in shorter time span, in order to prevent unexpected scraper error. 
+### 4. Other Tools
+I create a concurrent multithread function that allow users to fetch big amount of data in shorter time span, in order to prevent unexpected scraper error.
+
+## How to Use
+1. Import package **search** and create instance of InitSearch
+2. Import package **fetch_data** and call **pipeline_1**, **pipeline_2**, **pipeline_3** functions on the search instance in the correct order to fetch data
+3. Import package **clean_data** and call **create_df_final**, **clustering** to create csv files for tableau Visualization
+4. Import package **keyword_extraction** and call **keyword_pipeline** on the csv files created in previous step to extract keywords for all the films, and then export as a csv file
 ## Links
 1. [FlixPatrol](https://flixpatrol.com/)
 2. [TMDb](https://www.themoviedb.org/)
