@@ -1,4 +1,4 @@
-# Online Film Streaming Platform Analysis
+# Streaming Platform Analysis
 ## Goal
 For each of the popular film streaming platform(Netflix, Disney+, Amazon Prime...etc):
 1. Listing out the most popular films in each region(country) for the past two years
